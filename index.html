@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        TO-Do List
+    </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="text/Javascript" src="./js/To-Do-List.js"  defer> 
+    </script>
+</head>
+<body>
+    <form action="#">
+        <h1 >To-Do List</h1>
+        <label for="add to to-dos">Add to To-Dos</label><br>
+        <label for="enter-task" >Enter Task:</label>
+        <input type="text" name="enter-task"  id="enterTask"><br><br><br>
+        <input type="submit" name="add-to-do" value="Add-To-Do" id="addToDo" >
+        <input type="submit" name="edit" value="Edit" >
+        <input type="submit" name="delete" value="DELETE" >
+        <h2 id="active">Active To-Dos</h2>
+
+        
+        <h2 id="complete">Completed</h2>
+        <ul id="completed">
+
+        </ul>
+
+    
+    </form>
+    <ul id="activetodo"></ul>
+</body>
