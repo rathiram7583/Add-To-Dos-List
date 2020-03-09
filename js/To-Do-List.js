@@ -21,6 +21,8 @@ function add(input){
     input.value="";
 }
 
+
+//function move()
  
 
  
@@ -31,6 +33,7 @@ function add(input){
           
 
               var checkValue=document.querySelector('#activetodo li:last-child input');
+              
  
                checkValue.addEventListener('click',function(event)
                 {
@@ -45,21 +48,17 @@ function add(input){
                  {
                    
                   var li1=document.createElement("li");
-                  var checkBox1=document.createElement("INPUT");
+                  /*var checkBox1=document.createElement("INPUT");
                   checkBox1.setAttribute("type","checkbox");
-                  li1.appendChild(checkBox1);
+                  li1.appendChild(checkBox1);*/
                   li1.innerHTML+=completeInput.textContent;
                   completed.appendChild(li1);
-                  activeToDo.remove();
+                  activeToDo.remove(completeInput);
                   
                 }
-               /* else{
-                  /*var li = document.createElement("li");
-                  var checkBox=document.createElement("INPUT");
-                  checkBox.setAttribute("type", "checkbox");
-                  li.appendChild(checkBox);
+                
+                
                   
-                  li.innerHTML+=input.value;*/
                   
 
                 
