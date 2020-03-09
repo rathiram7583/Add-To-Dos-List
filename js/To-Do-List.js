@@ -39,7 +39,7 @@ function add(input){
  
                
                   var completeInput=this.parentNode;
-                  console.log(completeInput==true);
+                  //console.log(completeInput==true);
                 
                   if(completeInput!= undefined )
                  {
@@ -50,10 +50,19 @@ function add(input){
                   li1.appendChild(checkBox1);
                   li1.innerHTML+=completeInput.textContent;
                   completed.appendChild(li1);
-                  this. parentNode.removeChild(element.parentNode);
+                  activeToDo.remove();
+                  
+                }
+               /* else{
+                  /*var li = document.createElement("li");
+                  var checkBox=document.createElement("INPUT");
+                  checkBox.setAttribute("type", "checkbox");
+                  li.appendChild(checkBox);
+                  
+                  li.innerHTML+=input.value;*/
+                  
 
                 
-                }
    
  
                 });
