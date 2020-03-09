@@ -58,8 +58,10 @@ function add(input){
                   li1.appendChild(checkBox1);*/
                   li1.innerHTML+=completeInput.textContent;
                   completed.appendChild(li1);
+                  var div=this.parentElement;
+                  div.style.display="none";
                   
-                 // activeToDo.remove(getId);
+                
             
                   
                  
