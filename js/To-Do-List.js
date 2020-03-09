@@ -22,7 +22,10 @@ function add(input){
 }
 
 
-//function move()
+                 
+
+
+
  
 
  
@@ -47,13 +50,22 @@ function add(input){
                   if(completeInput!= undefined )
                  {
                    
+                   
+                   
                   var li1=document.createElement("li");
                   /*var checkBox1=document.createElement("INPUT");
                   checkBox1.setAttribute("type","checkbox");
                   li1.appendChild(checkBox1);*/
                   li1.innerHTML+=completeInput.textContent;
                   completed.appendChild(li1);
-                  activeToDo.remove(completeInput);
+                  
+                 // activeToDo.remove(getId);
+            
+                  
+                 
+
+                  
+                 
                   
                 }
                 
